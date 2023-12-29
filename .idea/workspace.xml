@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a717a7f1-4f66-4d5f-8711-4e0c991f1243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/CustomerPackageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/CustomerPassengerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/DestinationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/PackageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/controller/PassengerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/ActivityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/ActivityDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/DestinationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/DestinationDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/OrderActivityMappingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/OrderActivityMappingDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/PackageDestinationMappingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/PackageDestinationMappingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/PassengerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/TravelPackageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dao/TravelPackageDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/domain/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/ActivityDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/ActivityRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/DestinationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/DestinationRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PackagePassengerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PackageRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PassengerActivityDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PassengerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PassengerRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/PlaceOrderRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/RegisterPackageRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/dto/TravelItineraryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/MembershipType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/OrderActivityMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/PackageDestinationMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/entities/TravelPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/CustomerPackageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/CustomerPassengerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/DestinationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/PackageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travel/management/service/PassengerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/travel/management/service/CustomerPackageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/travel/management/service/CustomerPassengerServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2a6qtNvOAK9H2e2zIybg8QiU25s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TravelManagement" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'TravelManagementSystem.test'">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.travel.management.Application" />
+      <module name="TravelManagementSystem.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerPackageServiceTest.testGetItinerary_Successful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.travel.management.service.CustomerPackageServiceTest.testGetItinerary_Successful&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerPackageServiceTest.testGetPassengersByPackageId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.travel.management.service.CustomerPackageServiceTest.testGetPassengersByPackageId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerPassengerServiceTest.getPassengerActivitiesById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.travel.management.service.CustomerPassengerServiceTest.getPassengerActivitiesById&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerPassengerServiceTest.testPlaceOrder_StandardUser_lowActivity_Inventory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.travel.management.service.CustomerPassengerServiceTest.testPlaceOrder_StandardUser_lowActivity_Inventory&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'TravelManagementSystem.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Gradle.CustomerPackageServiceTest.testGetItinerary_Successful" />
+      <item itemvalue="Gradle.CustomerPackageServiceTest.testGetPassengersByPackageId" />
+      <item itemvalue="Gradle.CustomerPassengerServiceTest.getPassengerActivitiesById" />
+      <item itemvalue="Gradle.CustomerPassengerServiceTest.testPlaceOrder_StandardUser_lowActivity_Inventory" />
+      <item itemvalue="Gradle.Tests in 'TravelManagementSystem.test'" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'TravelManagementSystem.test'" />
+        <item itemvalue="Gradle.CustomerPassengerServiceTest.getPassengerActivitiesById" />
+        <item itemvalue="Gradle.CustomerPackageServiceTest.testGetPassengersByPackageId" />
+        <item itemvalue="Gradle.CustomerPackageServiceTest.testGetItinerary_Successful" />
+        <item itemvalue="Gradle.CustomerPassengerServiceTest.testPlaceOrder_StandardUser_lowActivity_Inventory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a717a7f1-4f66-4d5f-8711-4e0c991f1243" name="Changes" comment="" />
+      <created>1703649593393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703649593393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
